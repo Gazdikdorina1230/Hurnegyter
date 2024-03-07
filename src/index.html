@@ -1,0 +1,57 @@
+<!--
+File: index.html
+Author: Gazdik Dorina
+Copyright: 2024, Gazdik Dorina
+Group: Szoft I-1-N
+Date: 2024-03-07
+Github: https://github.com/gazdikdorina1230/
+Licenc: GNU GPL
+-->
+
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Húrnégyszög területe</title>
+    <link rel="stylesheet" href="bootstrap.css">
+</head>
+<body>
+    <div class="container">
+        <div class="hurnegyszog">
+            <div class="input">
+                <label for="sideA">A Oldal</label>
+                <input type="text"
+                class="form-control"
+                id="sideA" required>
+
+                <label for="sideB">B Oldal</label>
+                <input type="text"
+                class="form-control"
+                id="sideB" required>
+
+                <label for="sideC">C Oldal</label>
+                <input type="text"
+                class="form-control"
+                id="sideC" required>
+
+                <label for="sideD">D Oldal</label>
+                <input type="text"
+                class="form-control"
+                id="sideD" required>
+
+                <button id="calcButton"
+                class="btn btn-primary">Számít</button>
+
+                <label for="area" class="form-label">Terület</label>
+                <input type="text"
+                class="form-control"
+                id="area" readonly>
+            </div>
+
+        </div>
+
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
