@@ -1,3 +1,13 @@
+/*
+File: app.js
+Author: Gazdik Dorina
+Copyright: 2024, Gazdik Dorina
+Group: Szoft I-1-N
+Date: 2024-03-07
+Github: https://github.com/gazdikdorina1230/
+Licenc: GNU GPL
+*/
+
 const sideAInput = document.querySelector("#sideA")
 const sideBInput = document.querySelector("#sideB")
 const sideCInput = document.querySelector("#sideC")
